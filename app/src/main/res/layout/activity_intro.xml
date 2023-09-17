@@ -22,26 +22,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:fontFamily="@font/lato_bold"
         android:text="TAIIJII"
+        android:textAlignment="center"
         android:textColor="#090909"
         android:textSize="34sp"
-        android:fontFamily="@font/lato_bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.63" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="389dp"
+        android:layout_height="373dp"
+        android:layout_marginTop="100dp"
         android:layout_marginBottom="52dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_logo" />
 
     <Button
         android:id="@+id/lgn_button"
@@ -51,7 +55,7 @@
         android:layout_marginTop="100dp"
         android:background="@drawable/btn_background1"
         android:text="Log In"
-        android:textColor="#ffffff"
+        android:textColor="#090909"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,13 +63,13 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/signUp_button"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:text="Sign Up"
         style="@android:style/Widget.Button"
-        android:textColor="#603a91"
+        android:textColor="#090909"
         android:textSize="20sp"
         android:textStyle="bold"
         android:background="@drawable/btn_background2"
