@@ -21,14 +21,14 @@ public class home extends AppCompatActivity {
         //getWindow().setStatusBarColor(Color.TRANSPARENT);
         setContentView(R.layout.activity_home);
 
-       // image_upload = findViewById(R.id.upload_image);
-        //image_upload.setOnClickListener(new View.OnClickListener() {
-           // @Override
-          //  public void onClick(View view) {
-              //  Intent intent = new Intent(getApplicationContext());
-              //  startActivity(intent);
-          //  }
-        //});
+       image_upload = findViewById(R.id.upload_image);
+       image_upload.setOnClickListener(new View.OnClickListener() {
+           @Override
+            public void onClick(View view) {
+               Intent intent = new Intent(getApplicationContext(), upload_image.class);
+                startActivity(intent);
+           }
+        });
 
     }
 
