@@ -323,7 +323,7 @@
 
   </LinearLayout>
 
-<!--
+
   <androidx.cardview.widget.CardView
       android:id="@+id/cardView"
       android:layout_width="match_parent"
@@ -355,5 +355,5 @@
           android:icon="@drawable/icon_user" />
     </com.google.android.material.tabs.TabLayout>
   </androidx.cardview.widget.CardView>
--->
+
 </androidx.constraintlayout.widget.ConstraintLayout>
